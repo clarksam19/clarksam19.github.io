@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://opg.me/ns#">
+<head>
+  <title>Sam Clark</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+  <meta name="title" property="og:title" content="Sam Clark" />
+  <meta name="description" property="og:description" content="I'm a full stack software engineer in North Texas & co-creator of Lodge" />
+  <meta name="type" property="og:type" content="website" />
+  <meta name="url" property="og:url" content="https://samclark.dev" />
+  <meta name="image" property="og:image" content="public/assets/images/SC-in-Thailand.jpg" />
+  <meta name="author" content="Sam Clark" />
+  <!-- ICONS -->
+  <link rel="shortcut icon" type="image/x-icon" href="public/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="public/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="public/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="public/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="public/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="public/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="public/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="public/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="public/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="public/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="public/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="public/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicons/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="public/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div class="logo-links">
+    <a href="https://github.com/clarksam19" target="_blank">
+      <img class="icon" src="public/assets/icons/git_hub.svg" alt="github logo" id="github-logo">
+    </a>
+    <a href="public/assets/resume.pdf" target="_blank">
+      <img class="icon" src="public/assets/icons/resume.svg" alt="link to Sam Clark resume" id="resume-logo">
+    </a>
+    <a href="https://www.linkedin.com/in/sam-clark-0aa74390/" target="_blank">
+      <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Sam Clark LinkedIn" id="linkedin-logo">
+    </a>
+  </div>
+  <main>
+    <section id="intro" class="flexbox horz-center">
+      <img id="avatar" src="public/assets/images/SC-in-Thailand.jpg" alt="photo of Sam Clark">
+      <h3 id="name">Sam Clark</h3>
+      <p>I'm a full stack software engineer in North Texas with experience in containerized deployment, data pipelines & cloud platforms.</p>
+      <p>I recently built <a class="lodge" href="https://lodge-logging.github.io/">Lodge</a>, an open source logging observability framework built on top of the Elastic stack and deployed on AWS.</p>
+    </section>
+    <section id="lodge" class="flexbox horz-center">
+      <div id="lodge-title-container" class="flexbox">
+        <a href="https://lodge-logging.github.io/"><img id="lodge-logo" src="public/assets/images/lodge_logo.png" alt="lodge logo" /></a>
+      </div>
+      <div id="lodge-info-container" class="flexbox">
+        <div>
+          <img id="deploy-command-gif" src="public/assets/images/lodge_deploy.gif" alt="A gif showing the lodge deploy command" />
+        </div>
+        <div class="flexbox horz-center">
+          <p><a class="lodge" href="https://lodge-logging.github.io/">Lodge</a> is an open source self-managed logging observability framework for small to medium-sized microservice applications.</p>
+          <p>Lodge is built using the Elastic stack (Elasticsearch, Logstash, Kibana, Filebeat) plus Kafka and Amazon S3 for resilence to bursty traffic and cost-efficient data archiving</p>
+          <a id="lodge-repo-btn" class="btn" target="_blank" href="https://lodge-logging.github.io/">READ THE LODGE CASE STUDY</a>
+        </div>
+      </div>
+      <div id="lodge-video-container" class="flexbox">
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/HToQQsURZWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="flexbox horz-center">
+          <p>Check out the presentation I gave with my team on how we built <a class="lodge" href="https://lodge-logging.github.io/">Lodge</a>.</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="flexbox horz-center">
+        <h2>Other projects</h2>
+        <ul class="flexbox vert-center">
+          <li>
+            <img src="public/assets/images/airlineApp.png" alt="Screenshot of airline routes viewer application" />
+            <h4>Airline Routes</h4>
+            <p>An application that allows users to view and filter airline routes on a clickable svg map. Bootstrapped with Create React App.</p>
+          </li>
+          <li>
+            <img src="public/assets/images/trello.png" alt="Screenshot of trello application" />
+            <h4>Reaction</h4>
+            <p>A Trello-like project management application built with React and MongoDB which allows users to create and manipulate boards, lists, and cards.</p>
+          </li>
+          <li>
+            <img src="public/assets/images/todos.png" alt="Screenshot of todos application" />
+            <h4>Taskit</h4>
+            <p>A responsive task managament application built with Vanilla JavaScript.</p>
+          </li>
+        </ul>
+      </section>
+    <section id="contact" class="flexbox horz-center">
+      <h3>connect with me</h3>
+      <h4><a href="mailto:clarksam19@gmail.com">clarksam19@gmail.com</a></h4>
+      <ul class="flexbox vert-center">
+        <li>
+          <a href="public/assets/resume.pdf" target="_blank">
+            <img class="icon" src="public/assets/icons/resume.svg" alt="link to Sam Clark resume">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/clarksam19" target="_blank">
+            <img class="icon" src="public/assets/icons/git_hub.svg" alt="link to Sam Clark GitHub">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sam-clark-0aa74390/" target="_blank">
+            <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Sam Clark LinkedIn">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
